@@ -1330,7 +1330,7 @@ color:white;
 }
 
 body.dark .form-group label{
-color:white;
+color:white !important;
 }
 
 body.dark .form-group input:focus,
@@ -1734,6 +1734,7 @@ border-color:#2563eb;
             bottom: 20px;
             width: 55px;
             height: 55px;
+            text-decoration: none;
             border-radius: 50%;
             background: #25D366;
             box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
@@ -1976,4 +1977,12 @@ border-color:#2563eb;
 
         body.dark .pricing-cta:hover {
             background: linear-gradient(135deg,#3b82f6,#2563eb);
+        }
+
+        body.dark .phone-number{
+            color: #ffffff;
+        }
+
+        body.dark .labels{
+            color: #ffffff;
         }
